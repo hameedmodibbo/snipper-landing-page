@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-header{
+    background-image: url(Assets/Background.png);
+    background-size: cover;
+    height: 100vh;
+
+}
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+header{
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ a{
+    text-decoration: none;
+    font-size: 1px;
+    font-family: montserrat;
+    padding: 10px;
+    color: #000;
+}
+ a.cta{
+    background-color: #000;
+    color: #fff;
+    margin: 10px 0;
+    font-size: 15px;
+    border-radius: 4px;
+    
+}
+.cta span{
+    font-size: 13px;
+    color: #ccc;
+}
+
+section#hero{
+    text-align: center;
+    width: 58%;
+    margin: 0 auto;
+}
+
+#hero p{
+margin: 15px auto;
+width: 80%;
+text-align: center;
+}
+
+#hero h4{
+    font-weight: normal;
+    margin: 14px;
+    font-size: 13px;
+}
+
+.hero-title{
+    font-size: 2.5rem;
+}
+
+.snippet-image{
+    margin: 0 auto;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    width: 60%;
+}
+.snippet-image img{
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+
+
+/*secont section */
+
+.customise{
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customise-content{
+    width: 48%;
+}
+.customise-image{
+    width: 300px;
+    /* margin-top: 15px; */
+}
+.customise-image img{
+    width: 100%;
+}
+.customise-image img{
+    max-width: 300px;
+}
+.customise-title{
+    font-size: 24px;
+
+}
+.customise-content p{
+    line-height: 1.5;
+    padding: 14px 0;
+}
+
+
+footer{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ padding: 0 0.5rem;   
+}
+footer img{
+   
+}
+.links a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+@media(max-width:621px) {
+    .customise{
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+    width: 100%;
+    }
+    .customise-content{
+        max-width: 350px;
+    }
+}
+@media(max-width: 454px)
